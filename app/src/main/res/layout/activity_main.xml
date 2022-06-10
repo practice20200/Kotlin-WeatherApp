@@ -127,17 +127,17 @@
                 </Space>
 
                 <TextView
-                android:textSize="12sp"
-                android:text="Sunrise"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                </TextView>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunrise"
+                    android:textSize="12sp"></TextView>
                 <TextView
                 android:id="@+id/sunrise"
                 android:textSize="14sp"
                 android:text="5:30pm"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                    tools:ignore="DuplicateIds">
                 </TextView>
 
             </LinearLayout>
@@ -167,12 +167,12 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Sunrise"
+                    android:text="Sunset"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/sunset"
                     android:textSize="14sp"
                     android:text="5:30pm"
                     android:layout_width="wrap_content"
@@ -206,12 +206,12 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Sunrise"
+                    android:text="cloud"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/cloud"
                     android:textSize="14sp"
                     android:text="5:30pm"
                     android:layout_width="wrap_content"
@@ -252,12 +252,12 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Sunrise"
+                    android:text="Pressure"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/pressure"
                     android:textSize="14sp"
                     android:text="5:30pm"
                     android:layout_width="wrap_content"
@@ -291,12 +291,12 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Sunrise"
+                    android:text="humidity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/humidity"
                     android:textSize="14sp"
                     android:text="5:30pm"
                     android:layout_width="wrap_content"
@@ -330,14 +330,14 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Sunrise"
+                    android:text="info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/info"
                     android:textSize="14sp"
-                    android:text="5:30pm"
+                    android:text="Evan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
@@ -352,6 +352,8 @@
     </LinearLayout>
 
     </RelativeLayout>
+
+
 
 
 </RelativeLayout>
