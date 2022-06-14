@@ -206,12 +206,12 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="cloud"
+                    android:text="wind"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
                 <TextView
-                    android:id="@+id/cloud"
+                    android:id="@+id/wind"
                     android:textSize="14sp"
                     android:text="5:30pm"
                     android:layout_width="wrap_content"
@@ -252,7 +252,7 @@
 
                 <TextView
                     android:textSize="12sp"
-                    android:text="Pressure"
+                    android:text="pressure"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </TextView>
@@ -353,8 +353,22 @@
 
     </RelativeLayout>
 
+    <ProgressBar
+        android:id="@+id/Loader"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
 
-
-
+    <TextView
+        android:id="@+id/errortext"
+        android:layout_centerInParent="true"
+        android:text="Something went wrong"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </TextView>
 </RelativeLayout>
 
